@@ -11,5 +11,10 @@ oceanic_avg = sum(oceanic)/len(oceanic)
 continental_avg = sum(continental)/len(continental)
 
 
-#danielles change
-plt.bar(oceanic_avg, continental_avg)
+plt.bar(['oceanic','continental'],[oceanic_avg,continental_avg])
+plt.xlabel('type')
+plt.ylabel('average')
+plt.title("Comparing Plates' Average Speeds")
+
+plt.show()
+
