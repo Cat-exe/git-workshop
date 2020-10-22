@@ -11,7 +11,5 @@ continental_avg = sum(continental)/len(continental)
 
 #Plot oceanic and continental plate speeds
 plt.figure()
-plt.plot(oceanic, label = 'oceanic')
-plt.plot(continental, label = 'continental')
-plt.legend()
+plt.bar(['oceanic','continental'], [oceanic_avg,continental_avg])
 plt.show()
