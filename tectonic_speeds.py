@@ -9,7 +9,9 @@ continental = [1.71, 4.34, 2.00, 3.35, 1.96, 2.14]
 oceanic_avg = sum(oceanic)/len(oceanic)
 continental_avg = sum(continental)/len(continental)
 
+
 #Plot oceanic and continental plate speeds
 plt.figure()
 plt.bar(['oceanic','continental'], [oceanic_avg,continental_avg])
 plt.show()
+
